@@ -1,0 +1,38 @@
+body {
+    margin: 0%;
+}
+button {
+    cursor: pointer;
+}
+h1 {
+    text-align: center;
+}
+.card {
+    margin: 45px 25px;
+   
+    box-shadow: -2px 0px 6px 0px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    padding: 25px;
+}
+
+.card span {
+    display: flex;
+    justify-content: space-between;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
